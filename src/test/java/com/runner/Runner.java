@@ -10,10 +10,27 @@ public class Runner {
 //				return Karate.run("classpath:features/GetAllBooks.feature")
 //				.relativeTo(getClass());
 //	}
+//	
+//	@Karate.Test
+//	Karate testPostBooks() {
+//		return Karate.run("classpath:features/createBook.feature")
+//				.relativeTo(getClass());
+//	}
+//	
 	
+	
+
 	@Karate.Test
 	Karate testPostBooks() {
-		return Karate.run("classpath:features/createBook.feature")
+		return Karate.run("classpath:features/CreateUser.feature")
+				.relativeTo(getClass());
+	}
+	
+	
+
+	@Karate.Test
+	Karate testGostBookById() {
+		return Karate.run("classpath:features/GetById.feature")
 				.relativeTo(getClass());
 	}
 	
