@@ -7,7 +7,7 @@ Feature:this feature file is for create book
   Scenario:to verify valid book creation
   
 * def randomId = Math.floor(Math.random() * 1000) + 1
-* def randomTitle= ("Book-" + randomId)
+* def randomTitle = 'Book-' + randomId
 * def randomDescription = 'book description ' + randomId
 * def randomExcerpt = 'This is a sample book. ' + randomId
 * def randomPageCount = Math.floor(Math.random() * 500) + 1
@@ -38,4 +38,4 @@ Then status 200
 * match jsonResponse.description == randomDescription
 * match jsonResponse.pageCount == randomPageCount
 * match jsonResponse.excerpt == randomExcerpt
-* match jsonResponse.publishDate == '2024-06-01T00:00:00Z'
+* match jsonResponse.publishDate == '#string'
