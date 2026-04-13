@@ -38,8 +38,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">0</div>
-      <div id="nav-fail" class="bg-danger">1</div>
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,12 +49,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2026-04-13 02:38:58 pm</div>
+    <div>2026-04-13 02:55:43 pm</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1:7]"><span>[1:7]</span> <span>to verify valid book creation</span></a>
           </div>
         </div>
@@ -83,8 +83,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>228</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>4331</span>
             </div>
           </div>
           
@@ -101,7 +101,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def randomId = Math.floor(Math.random() * 1000) + 1</span>
       </div>
     </div>
-    <div class="time-cell passed">228</div>
+    <div class="time-cell passed">198</div>
   </div>
 
    
@@ -123,13 +123,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.10">
-      <div class="step-ref failed">10</div>
+      <div class="step-ref passed">10</div>
       
-      <div class="step-cell failed">
-        <span>*</span>&nbsp;<span>def randomTitle= (&quot;Book-&quot; + randomId)</span>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def randomTitle = &#39;Book-&#39; + randomId</span>
       </div>
     </div>
-    <div class="time-cell failed">0</div>
+    <div class="time-cell passed">15</div>
   </div>
 
    
@@ -138,11 +138,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.10">14:38:58.097 classpath:features/createBook.feature:10
-* def randomTitle= (&quot;Book-&quot; + randomId)
-no step-definition method match found for: def randomTitle= (&quot;Book-&quot; + randomId)
-classpath:features/createBook.feature:10
-</div>   
+     
 
   
 
@@ -155,13 +151,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.11">
-      <div class="step-ref skipped">11</div>
+      <div class="step-ref passed">11</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def randomDescription = &#39;book description &#39; + randomId</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -183,13 +179,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.12">
-      <div class="step-ref skipped">12</div>
+      <div class="step-ref passed">12</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def randomExcerpt = &#39;This is a sample book. &#39; + randomId</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -211,13 +207,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
+      <div class="step-ref passed">13</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def randomPageCount = Math.floor(Math.random() * 500) + 1</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -239,13 +235,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.15">
-      <div class="step-ref skipped">15</div>
+      <div class="step-ref passed">15</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>url &#39;https://fakerestapi.azurewebsites.net/api/v1/Books&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -267,13 +263,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.16">
-      <div class="step-ref skipped">16</div>
+      <div class="step-ref passed">16</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -295,13 +291,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.17">
-      <div class="step-ref skipped">17</div>
+      <div class="step-ref passed">17</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">82</div>
   </div>
 
    
@@ -329,13 +325,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.31">
-      <div class="step-ref skipped">31</div>
+      <div class="step-ref passed">31</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">3788</div>
   </div>
 
    
@@ -344,7 +340,26 @@ classpath:features/createBook.feature:10
 
   
 
-     
+  <div class="preformatted" data-parent="0.31">14:55:39.970 request:
+1 &gt; POST https://fakerestapi.azurewebsites.net/api/v1/Books
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 158
+1 &gt; Host: fakerestapi.azurewebsites.net
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.7)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:504,&quot;title&quot;:&quot;Book-504&quot;,&quot;description&quot;:&quot;book description 504&quot;,&quot;pageCount&quot;:278,&quot;excerpt&quot;:&quot;This is a sample book. 504&quot;,&quot;publishDate&quot;:&quot;2024-06-01T00:00:00Z&quot;}
+
+14:55:43.084 response time in milliseconds: 3098
+1 &lt; 200
+1 &lt; Content-Type: application/json; charset=utf-8; v=1.0
+1 &lt; Date: Mon, 13 Apr 2026 09:25:44 GMT
+1 &lt; Server: Kestrel
+1 &lt; Transfer-Encoding: chunked
+1 &lt; api-supported-versions: 1.0
+{&quot;id&quot;:504,&quot;title&quot;:&quot;Book-504&quot;,&quot;description&quot;:&quot;book description 504&quot;,&quot;pageCount&quot;:278,&quot;excerpt&quot;:&quot;This is a sample book. 504&quot;,&quot;publishDate&quot;:&quot;2024-06-01T00:00:00Z&quot;}
+
+</div>   
 
   
 
@@ -357,13 +372,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.32">
-      <div class="step-ref skipped">32</div>
+      <div class="step-ref passed">32</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">12</div>
   </div>
 
    
@@ -385,13 +400,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.34">
-      <div class="step-ref skipped">34</div>
+      <div class="step-ref passed">34</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def jsonResponse = response</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">37</div>
   </div>
 
    
@@ -413,13 +428,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.35">
-      <div class="step-ref skipped">35</div>
+      <div class="step-ref passed">35</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>karate.log(&#39;Response:&#39;, jsonResponse)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">132</div>
   </div>
 
    
@@ -428,7 +443,16 @@ classpath:features/createBook.feature:10
 
   
 
-     
+  <div class="preformatted" data-parent="0.35">14:55:43.275 Response: {
+  &quot;id&quot;: 504,
+  &quot;title&quot;: &quot;Book-504&quot;,
+  &quot;description&quot;: &quot;book description 504&quot;,
+  &quot;pageCount&quot;: 278,
+  &quot;excerpt&quot;: &quot;This is a sample book. 504&quot;,
+  &quot;publishDate&quot;: &quot;2024-06-01T00:00:00Z&quot;
+}
+ 
+</div>   
 
   
 
@@ -441,13 +465,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.36">
-      <div class="step-ref skipped">36</div>
+      <div class="step-ref passed">36</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>match response.id == randomId</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">33</div>
   </div>
 
    
@@ -469,13 +493,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.37">
-      <div class="step-ref skipped">37</div>
+      <div class="step-ref passed">37</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>match jsonResponse.title == randomTitle</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
@@ -497,13 +521,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.38">
-      <div class="step-ref skipped">38</div>
+      <div class="step-ref passed">38</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>match jsonResponse.description == randomDescription</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -525,13 +549,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.39">
-      <div class="step-ref skipped">39</div>
+      <div class="step-ref passed">39</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>match jsonResponse.pageCount == randomPageCount</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -553,13 +577,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.40">
-      <div class="step-ref skipped">40</div>
+      <div class="step-ref passed">40</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>match jsonResponse.excerpt == randomExcerpt</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -581,13 +605,13 @@ classpath:features/createBook.feature:10
 
   <div class="step-row">
     <div class="step-container" id="0.41">
-      <div class="step-ref skipped">41</div>
+      <div class="step-ref passed">41</div>
       
-      <div class="step-cell skipped">
-        <span>*</span>&nbsp;<span>match jsonResponse.publishDate == &#39;2024-06-01T00:00:00Z&#39;</span>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match jsonResponse.publishDate == &#39;#string&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
